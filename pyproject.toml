@@ -2,9 +2,9 @@
 name = "github-tag-summarizer"
 version = "0.1.0"
 description = ""
-authors = ["Masahiro Nishimi <nishimi@sonicgarden.jp>"]
+authors = ["Masahiro Nishimi <mah@edged-edge.jp>"]
 readme = "README.md"
-packages = [{include = "github_tag_summarizer"}]
+packages = [{ include = "github_tag_summarizer" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
