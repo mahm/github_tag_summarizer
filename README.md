@@ -5,6 +5,18 @@ summaries in a `data` directory, and sends notifications to a Slack channel (if 
 
 ## Setup
 
+1. Set up the `OPENAI_API_KEY` environment variable with your OpenAI API key. You can either export it in your shell or
+
+```
+export OPENAI_API_KEY=your_openai_api_key
+```
+
+add it to your `.env` file:
+
+```
+OPENAI_API_KEY=your_openai_api_key
+```
+
 1. If you don't have Poetry installed, install it with:
 
 ```
